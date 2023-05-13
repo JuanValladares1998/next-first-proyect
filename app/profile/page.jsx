@@ -39,7 +39,7 @@ const MyProfile = () => {
 
   useEffect(() => {
     fetchPosts();
-  });
+  }, []);
 
   return (
     <Profile
